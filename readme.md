@@ -4,6 +4,9 @@
 
 - Drag and Drop
 
+# How to use
+
+- Default key bind is F2 (can be changed in your keybind settings)
 
 [Preview](https://cdn.discordapp.com/attachments/1024564936745160744/1107926178418929756/2023-05-16_02-58-39.mp4)
 
