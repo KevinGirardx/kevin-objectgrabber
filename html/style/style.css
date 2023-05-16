@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.container {
+    padding: 15px;
+    text-transform: capitalize;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    max-width: 20%;
+    border: solid 5px;
+    border-radius: 20px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(19, 19, 31);
+}
+
+.alert-el {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* text-transform: uppercase; */
+    color: rgb(128, 231, 183);
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    color: rgb(128, 231, 183);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 25px 0px;
+}
+
+li button {
+    margin-left: auto;
+    color: white;
+    border: 0;
+    border-radius: 7px;
+    background-color: rgb(65, 153, 131);
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+.coords-container {
+    display: flex;
+    overflow: hidden;
+}
+
+.coords-container span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button:hover {
+    color: rgb(8, 8, 14);
+    background-color: rgb(92, 189, 165) ;
+}
+
+.main-copy-btn {
+    width: 100%;
+    color: white;
+    border: 0;
+    border-radius: 7px;
+    background-color: rgb(65, 153, 131);
+    font-size: 13px;
+    padding: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

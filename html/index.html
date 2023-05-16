@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <script src='https://kit.fontawesome.com/50f2d62cb4.js' crossorigin='anonymous'></script>
+    <link rel='stylesheet' href='/html/style/style.css'>
+    <title>Object Grabber</title>
+</head>
+    <body>
+        <div style='display: none;' id='ui-el' class='container'>
+        <!-- <div  id='ui-el' class='container'> -->
+            <h1>object grabber</h1>
+            <ul>
+                <li>name: <span id='name-el'></span><button onclick='copyData("name-el")'><i class='fas fa-clone'></i></button></li>
+                <li>hash: <span id='hash-el'></span><button onclick='copyData("hash-el")'><i class='fas fa-clone'></i></button></li>
+                <li>net id: <span id='netid-el'></span><button onclick='copyData("netid-el")'><i class='fas fa-clone'></i></button></li>
+                <li>heading: <span id='heading-el'></span><button onclick='copyData("heading-el")'><i class='fas fa-clone'></i></button></li>
+                <li>coords3:<div class='coords-container'><span id='coords3-el'></span></div><button onclick='copyData("coords3-el")'><i class='fas fa-clone'></i></button></li>
+                <li>coords4:<div class='coords-container'><span id='coords4-el'></span></div><button onclick='copyData("coords4-el")'><i class='fas fa-clone'></i></button></li>
+            </ul>
+            <button class='main-copy-btn' onclick='saveData()' id='save-btn'>save object</button>
+            <p class='alert-el' id='alert-el'></p>
+        </div>
+        <script src='/html/js/app.js'></script>
+    </body>
+</html>
